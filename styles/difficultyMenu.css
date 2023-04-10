@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: rgb(53, 134, 146);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    font-size: 5vw;
+}
+
+.difficulty-info {
+    display: flex;
+    width: fit-content;
+    gap: 3vw;
+    font-size: 1.8rem;
+    margin-left: 50%;
+    margin-top: 3%;
+    transform: translateX(-50%);
+}
+.size,
+.bombs {
+    text-align: center;
+}
+
+button {
+    font-size: 2rem;
+}

@@ -1,0 +1,12 @@
+.game-over {
+    position: absolute;
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    color: rgb(202, 198, 231);
+    padding: 20px;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    transform: translate(-50%, -50%);
+}

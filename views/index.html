@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="../scripts/difficultyModes.js" defer></script>
+        <script type="module" src="../scripts/board.js" defer></script>
+        <script type="module" src="../scripts/main_logic.js" defer></script>
+        <link rel="stylesheet" href="../styles/difficultyMenu.css" />
+        <link rel="stylesheet" href="../styles/board.css" />
+        <link rel="stylesheet" href="../styles/gameover.css" />
+        <title>Minesweeper</title>
+    </head>
+    <body>
+        <div class="customize-menu">
+            <div class="text">Choose a difficulty:</div>
+            <div class="difficulty-info">
+                <div>
+                    <div>Difficulty:</div>
+                    <div>Size:</div>
+                    <div>Bombs:</div>
+                </div>
+                <div>
+                    <button class="easy">Easy</button>
+                    <div class="size">8x8</div>
+                    <div class="bombs">10</div>
+                </div>
+                <div>
+                    <button class="normal">Normal</button>
+                    <div class="size">16x16</div>
+                    <div class="bombs">40</div>
+                </div>
+                <div>
+                    <button class="expert">Expert</button>
+                    <div class="size">24x24</div>
+                    <div class="bombs">99</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
